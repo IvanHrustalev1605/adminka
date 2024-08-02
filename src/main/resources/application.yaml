@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: admonochka_dlya_seregenke
+  cloud:
+    openfeign:
+      client:
+        config:
+          web-portal-client:
+            url: http://127.0.0.1:8086/api/
+
+server:
+  port: 9999
+token: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ0ZXN0YXJjdGljOEBnbWFpbC5jb20iLCJpYXQiOjE3MjI0MzE3OTIsImV4cCI6MTczNzk4Mzc5Mn0.0P9gC4vaKs-iPLXovo0JWSnz46fJHrB5jY8b-z22q3aY0phoARb2w648NTfduJJLFpuPRSH6zP4miE5j_pXS5g
